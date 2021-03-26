@@ -390,7 +390,7 @@ img {
   position: relative;
 }
 .js [data-slide] > * {
-  position: relative;
+  position: absolute;
   top: 0px;
   opacity: 0;
 }
