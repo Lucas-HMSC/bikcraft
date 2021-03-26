@@ -45,17 +45,25 @@
   .header_menu ul li a:hover {
     border-color: #fff;
   }
+  .header_menu ul li a.menu_ativo {
+    border-color: #fff;
+  }
 
   /* Introdução */
-	.introducao h1 {
-		font-size: 36px;
-	}
+  .introducao h1 {
+    font-size: 36px;
+  }
 
   .introducao {
     margin-top: 0;
     padding-top: 40px;
     background: url('../img/bg-mobile.jpg') no-repeat center;
     background-size: cover;
+  }
+
+  /* Introdução Interna */
+  .introducao-interna {
+    margin-top: 0;
   }
 
   /* Call */
@@ -66,5 +74,16 @@
   /* Qualidade Home */
   .qualidade:after {
     display: none;
+  }
+
+  /* Sobre */
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0;
+  }
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
