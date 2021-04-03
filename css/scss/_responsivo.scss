@@ -28,10 +28,9 @@
     padding: 41px 0;
   }
   .produto_info p {
-    font-size: 14px;
-    line-height: 20px;
     height: 122px;
     padding: 20px 30px;
+    @include tipo-1(14);
   }
   .produto_info ul li {
     width: 181px;
@@ -70,7 +69,7 @@
 
   /* Introdução */
   .introducao h1 {
-    font-size: 36px;
+    @include tipo-1(36);
   }
 
   .introducao {
@@ -97,12 +96,11 @@
 
   /* Sobre */
   .missao_sobre p {
-    font-size: 14px;
-    line-height: 20px;
     padding-right: 0;
+    @include tipo-1(14);
   }
   .missao_sobre ul li {
-    font-size: 14px;
+    @include tipo-1(14);
     line-height: 25px;
   }
 
@@ -115,17 +113,15 @@
     padding: 41px 0;
   }
   .produto_info p {
-    font-size: 14px;
-    line-height: 20px;
     height: auto;
     padding: 20px 30px;
+    @include tipo-1(14);
   }
   .produto_info ul li {
     width: 149px;
     height: 48px;
-    font-size: 14px;
-    line-height: 20px;
     padding-top: 14px;
+    @include tipo-1(14);
   }
   .form {
     padding-right: 0;
